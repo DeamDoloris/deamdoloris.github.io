@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  backdrop-filter: blur(5px);
+}
+
+.navbar > img {
+  border-radius: 50%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 140px;
+  margin: 16px;
+}
+
+.hero p {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+button i {
+  font-size: 32px !important;
+}
+
+hr {
+  margin: 0;
+  margin-top: 8px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
